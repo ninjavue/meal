@@ -1,0 +1,38 @@
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .col-md-4{
+    width: 33%;
+  }
+  
+}
+@media (max-width: 900px) {
+  .col-md-6{
+    width: 50%;
+  }
+  .col-md-12{
+    width: 100%;
+  }
+  
+}
+@media (max-width: 600px) {
+  .col-sm-12{
+    width: 100%;
+  }
+  
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
